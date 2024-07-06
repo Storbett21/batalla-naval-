@@ -1,0 +1,22 @@
+/* GameControls.css */
+.game-controls {
+    background-color: #3f3f3f;
+    border: 2px solid #64ffda;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.game-controls button {
+    background-color: #64ffda;
+    color: #121212;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.game-controls button:disabled {
+    background-color: #9e9e9e;
+    cursor: not-allowed;
+}

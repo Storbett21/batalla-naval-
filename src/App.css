@@ -1,58 +1,53 @@
-/* styles.css */
-
-/* Estilos generales */
-body {
-  background-color: #CEDEEA;
-  text-align: center;
+/* App.css */
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
 }
 
-/* Tablero principal */
-#board {
-  width: 300px;
-  height: 300px;
-  margin: 20px auto;
-  border: 1px solid #000;
+/* Board.css */
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  gap: 5px;
+  background-color: #3f3f3f;
+  border: 2px solid #fff;
+  margin: 10px;
+  padding: 5px;
 }
 
-.myRow {
-  width: 100%;
-  height: 30px;
+.board.player {
+  border-color: #64ffda;
 }
 
-.grid {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #000;
-  display: inline-block;
+.board.pc {
+  border-color: #ff1744;
 }
 
-/* Selección de posición de barco */
-.position {
-  display: inline-block;
-  margin-top: 10px;
+.row {
+  display: flex;
 }
 
-.horizontal, .vertical {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #000;
-  display: inline-block;
-  cursor: pointer;
-  margin: 0 5px;
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: #64ffda;
+  border: 1px solid #fff;
 }
 
-.vertical {
-  transform: rotate(90deg);
+.square.ship {
+  background-color: #333;
 }
 
-.selected {
-  background-color: blue;
+.square.hit {
+  background-color: #ff5252;
 }
 
-.hit {
-  background-color: red;
-}
-
-.miss {
-  background-color: gray;
+.square.miss {
+  background-color: #607d8b;
 }

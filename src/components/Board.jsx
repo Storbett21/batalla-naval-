@@ -1,19 +1,14 @@
 import React from 'react';
-import Cell from './Cell';
+import Row from '../components/Row';
 
-const Board = ({ board, onCellClick }) => {
+const Board = ({ type, handleClick }) => {
   return (
-    <div className="board">
-      {board.map((row, rowIndex) => (
-        <div key={rowIndex} className="row">
-          {row.map((cell, cellIndex) => (
-            <Cell key={cellIndex} status={cell} onClick={() => onCellClick(rowIndex, cellIndex)} />
-          ))}
-        </div>
+    <div id={type === "Player" ? "board" : "boardAttack"} className="board">
+      {Array.from({ length: 10 }).map((_, rowIndex) => (
+        <Row key={rowIndex} rowIndex={rowIndex} type={type} handleClick={handleClick} />
       ))}
     </div>
   );
 };
 
 export default Board;
-

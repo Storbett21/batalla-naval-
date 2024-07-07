@@ -1,68 +1,47 @@
-# batalla-naval-
-# Getting Started with Create React App
+Aplicación de Batalla Naval en React
+Esta es una aplicación web de Batalla Naval desarrollada en React. Permite a los usuarios jugar el clásico juego de Batalla Naval contra la computadora.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requisitos previos
+Node.js instalado localmente. Puedes descargarlo desde nodejs.org.
+Configuración inicial
+Clonar el repositorio:
 
-## Available Scripts
+bash
+Copiar código
+git clone <URL_del_repositorio>
+cd batalla-naval-react
+Instalar dependencias:
 
-In the project directory, you can run:
+bash
+Copiar código
+npm install
+Ejecutar la aplicación localmente
+En el entorno local
+Para ejecutar la aplicación en tu entorno local:
 
-### `npm start`
+bash
+Copiar código
+npm start
+Esto iniciará la aplicación en modo desarrollo. Abre http://localhost:3000 en tu navegador para ver la aplicación.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+En CodeSpaces
+Si prefieres usar CodeSpaces:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Abre el repositorio en CodeSpaces.
 
-### `npm test`
+Ejecuta el siguiente comando en la terminal de CodeSpaces:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copiar código
+npm install
+npm start
+Esto iniciará la aplicación en un entorno de desarrollo dentro de CodeSpaces.
 
-### `npm run build`
+Uso
+Una vez que la aplicación esté corriendo localmente, puedes jugar a la Batalla Naval directamente desde tu navegador. Sigue las instrucciones en la interfaz para jugar contra la computadora.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
+Contribución
+Si deseas contribuir a este proyecto, asegúrate de bifurcar el repositorio y enviar pull requests. Agradecemos cualquier mejora o corrección de errores.
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 

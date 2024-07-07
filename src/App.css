@@ -1,53 +1,28 @@
-/* App.css */
-.app {
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #121212;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-/* Board.css */
-.board {
-  display: grid;
-  grid-template-columns: repeat(10, 40px);
-  grid-template-rows: repeat(10, 40px);
-  gap: 5px;
-  background-color: #3f3f3f;
-  border: 2px solid #fff;
-  margin: 10px;
-  padding: 5px;
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #00e6e6;
+  border-radius: 10px;
+  background-color: #222;
+  box-shadow: 0 0 20px rgba(0, 230, 230, 0.8);
 }
 
-.board.player {
-  border-color: #64ffda;
+h1 {
+  color: #00e6e6;
+  margin-bottom: 20px;
 }
 
-.board.pc {
-  border-color: #ff1744;
-}
-
-.row {
-  display: flex;
-}
-
-.square {
-  width: 40px;
-  height: 40px;
-  background-color: #64ffda;
-  border: 1px solid #fff;
-}
-
-.square.ship {
-  background-color: #333;
-}
-
-.square.hit {
-  background-color: #ff5252;
-}
-
-.square.miss {
-  background-color: #607d8b;
-}

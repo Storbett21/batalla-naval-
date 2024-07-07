@@ -14,7 +14,7 @@ Aplicación web de Batalla Naval desarrollada en React. Permite a los usuarios j
    git clone <URL_del_repositorio>
    cd batalla-naval-react
 
-## Instalar dependencias:
+**Instalar dependencias** 
 
 ```bash
 
@@ -22,7 +22,8 @@ npm install
 
 Ejecutar la aplicación localmente
 En el entorno local
-Para ejecutar la aplicación en tu entorno local:
+
+Para ejecutar la aplicación en tu entorno local
 
 ```bash
 

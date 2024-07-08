@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Board.css'; // Asegúrate de importar tus estilos CSS aquí
+import '../Board.css'; 
 
 const sizeShip = [5, 4, 3, 2];
 const positionArray = ["horizontal", "vertical"];

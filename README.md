@@ -1,7 +1,6 @@
 # Aplicación de Batalla Naval en React
 
-Aplicación web de Batalla Naval desarrollada en React. Permite a los usuarios jugar el clásico juego de Batalla Naval contra la computadora. Puedes acceder rápidamente a la aplicación de Batalla Naval haciendo clic en <a href="http://localhost:3000/" style="background-color: #007BFF; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Batalla Naval</a>
-
+Aplicación web de Batalla Naval desarrollada en React. Permite a los usuarios jugar el clásico juego de Batalla Naval contra la computadora.
 ## Requisitos previos
 
 - Node.js instalado localmente. Puedes descargarlo desde [nodejs.org](https://nodejs.org/).

@@ -11,16 +11,16 @@ body {
   margin: 40px;
 }
 
-/* Media queries para ajustes en pantallas más pequeñas */
+
 @media (max-width: 768px) {
   .body {
-    margin: 20px; /* Reducir el margen en pantallas menores a 768px */
+    margin: 20px; 
   }
 }
 
 @media (max-width: 480px) {
   .body {
-    margin: 10px; /* Reducir aún más el margen en pantallas menores a 480px */
+    margin: 10px; 
   }
 }
 

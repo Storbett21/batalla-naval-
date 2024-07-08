@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Ship.css'; // Importar el archivo de estilos CSS
+import '../Ship.css'; 
 
 const sizeShip = [5, 4, 3, 2];
 const positionArray = ["horizontal", "vertical"];
@@ -10,7 +10,7 @@ function ShipSelector({ onSelect }) {
     const ship = {
       position: shipData[0],
       size: sizeShip[shipData[1]],
-      id: parseInt(shipData[1]) + 1 // Adjust ship ID as needed
+      id: parseInt(shipData[1]) + 1 
     };
     onSelect(ship); // Llama a la función de selección pasando el objeto de barco
   };

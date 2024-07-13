@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import '../Board.css'; 
+import '../Board.css';
 
 const sizeShip = [5, 4, 3, 2];
 const positionArray = ["horizontal", "vertical"];
 
 const Board = () => {
-  const [matrix, setMatrix] = useState(Array.from({ length: 10 }, () => Array.from({ length: 10 }, () => '')));
-  const [matrixAttack, setMatrixAttack] = useState(Array.from({ length: 10 }, () => Array.from({ length: 10 }, () => '')));
+  const initialMatrix = () => Array.from({ length: 10 }, () => Array.from({ length: 10 }, () => ''));
+  
+  const [matrix, setMatrix] = useState(initialMatrix());
+  const [matrixAttack, setMatrixAttack] = useState(initialMatrix());
   const [quantityShip, setQuantityShip] = useState([1, 1, 1, 2]);
   const [selectedShip, setSelectedShip] = useState({});
   const [showMaquinaTab, setShowMaquinaTab] = useState(false);
@@ -101,6 +103,10 @@ const Board = () => {
 
   const checkShot = (x, y) => {
     const newMatrixAttack = [...matrixAttack];
+    if (newMatrixAttack[x][y] === 'hit' || newMatrixAttack[x][y] === 'miss') {
+      alert("Ya has disparado en esta posición.");
+      return;
+    }
     if (matrixAttack[x][y] === 'ship') {
       newMatrixAttack[x][y] = 'hit';
       setMatrixAttack(newMatrixAttack);
@@ -141,6 +147,15 @@ const Board = () => {
       if (matrix[i].includes('ship')) return;
     }
     alert(player === "maquina" ? "¡Ha ganado la Maquina!" : "¡GANASTE!");
+    resetGame();
+  };
+
+  const resetGame = () => {
+    setMatrix(initialMatrix());
+    setMatrixAttack(initialMatrix());
+    setQuantityShip([1, 1, 1, 2]);
+    setSelectedShip({});
+    setShowMaquinaTab(false);
   };
 
   return (

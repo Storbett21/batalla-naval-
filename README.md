@@ -1,4 +1,4 @@
-Puedes jugar en este <link> https://storbett21-batallanaval.netlify.app/ </link>
+Puedes jugar en este <link>https://main--batalla-naval-storbett.netlify.app/ </link>
 
 Aplicación web de Batalla Naval desarrollada en React. Permite a los usuarios jugar el clásico juego de Batalla Naval contra la computadora.
 ## Requisitos previos

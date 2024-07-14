@@ -42,8 +42,12 @@ npm install
 npm start
 Esto iniciará la aplicación en un entorno de desarrollo dentro de CodeSpaces.
 
+
+
 **Uso**
 Una vez que la aplicación esté corriendo localmente, puedes jugar a la Batalla Naval directamente desde tu navegador.
 
 **Contribución**
 Si deseas contribuir a este proyecto, asegúrate de bifurcar el repositorio y enviar pull requests. Agradecemos cualquier mejora o corrección de errores.
+
+## Puedes jugar en este link https://storbett21-batallanaval.netlify.app/

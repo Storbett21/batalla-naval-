@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import confetti from "canvas-confetti"
 import '../Board.css';
 
 const sizeShip = [5, 4, 3, 2];
@@ -146,7 +147,7 @@ const Board = () => {
     for (let i = 0; i < 10; i++) {
       if (matrix[i].includes('ship')) return;
     }
-    alert(player === "maquina" ? "¡Ha ganado la Maquina!" : "¡GANASTE!");
+    alert(player === "maquina" ? "¡Ha ganado la Maquina!" : confetti(), "¡GANASTE!");
     resetGame();
   };
 

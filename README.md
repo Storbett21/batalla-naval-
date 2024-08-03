@@ -7,7 +7,7 @@ Aplicación web de Batalla Naval desarrollada en React. Permite a los usuarios j
 
 ## Configuración inicial
 
-1. **Clonar el repositorio:**
+1. Clonar el repositorio
 
    ```bash
    git clone <URL_del_repositorio>

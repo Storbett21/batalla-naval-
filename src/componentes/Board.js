@@ -7,7 +7,7 @@ import hitSound from '../sounds/hit.mp3';
 import missSound from '../sounds/miss.mp3';
 import backgroundMusic from '../sounds/background.mp3';
 
-const sizeShip = [5, 4, 3, 2];
+const sizeShip = [4, 5, 3, 2];
 const positionArray = ['horizontal', 'vertical'];
 
 const Board = () => {
